@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		
 		MobileCodeWS mc = new MobileCodeWS();
 		MobileCodeWSSoap soap = mc.getMobileCodeWSSoap();
-		String msg = soap.getMobileCodeInfo("18271483864", null);
+		String msg = soap.getMobileCodeInfo("", null);
 		System.out.println(msg);
 	}
 	
